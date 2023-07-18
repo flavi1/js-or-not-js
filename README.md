@@ -97,3 +97,11 @@ Example :
     	<script>alert('you will not see me if you type "?nojs=1" at the end of the page URL');</script>
     </body>
     </html>
+
+# III - customElementsDispatcher.js
+
+todo
+
+# IV - reDesigner.js
+
+todo
