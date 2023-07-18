@@ -23,6 +23,7 @@ There are 2 ways to use it.
 
 ## 1 - The irreversible mode.
 
+    <script src="recreateElement.js"></script>
     <script src="nojs.js"></script>
 
 Then, later in your code :
@@ -31,11 +32,13 @@ Then, later in your code :
 
 Or immediately :
 
+    <script src="recreateElement.js"></script>
     <script src="nojs.js?stop=irreversible"></script>
 
   
 ## 2 - The reversible mode.
 
+    <script src="recreateElement.js"></script>
     <script src="nojs.js"></script>
 
 Then, later in your code :
@@ -44,6 +47,7 @@ Then, later in your code :
 
 Or immediately :
 
+    <script src="recreateElement.js"></script>
     <script src="nojs.js?stop=now"></script>
 
 If you want to allow Javascript declarations again :
@@ -81,6 +85,7 @@ Example :
 
     <html class="nojs">
     <head>
+        <script src="recreateElement.js"></script>
     	<script src="nojs.js"></script>
     	<script>
     		urlParams = new URL(window.location.toLocaleString()).searchParams;
