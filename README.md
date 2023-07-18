@@ -105,3 +105,7 @@ todo
 # IV - reDesigner.js
 
 todo
+
+# Explainations
+
+todo
