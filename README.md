@@ -1,5 +1,5 @@
 # js-or-not-js
-A Framework to make JS realy non obstrusive
+A micro framework to make JS realy non obstrusive
 
 # I - recreateElement.js
 
