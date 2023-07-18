@@ -85,7 +85,7 @@ Example :
 
     <html class="nojs">
     <head>
-        <script src="recreateElement.js"></script>
+    	<script src="recreateElement.js"></script>
     	<script src="nojs.js"></script>
     	<script>
     		urlParams = new URL(window.location.toLocaleString()).searchParams;
