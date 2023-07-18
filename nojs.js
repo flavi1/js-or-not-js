@@ -115,7 +115,12 @@ const noJS = (function() {
 		publicMethods.stop();
 	if(opt.stop == 'irreversible')
 		publicMethods.stop(true);
-    
+	
+	if(opt.stop != 'irreversible' && opt.stop != 'now') {
+		htmlEl.classList.remove(opt.class_nojs)
+		htmlEl.classList.add(opt.class_js)
+	}
+	
 	return publicMethods;
     
 })();
