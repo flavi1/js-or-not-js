@@ -1,7 +1,7 @@
 # js-or-not-js
 A Framework to make JS realy non obstrusive
 
-# recreateElement.js
+# I - recreateElement.js
 
 This is the core of this micro framework. This provide a simple method to reproduce an HTML Element with another tag name.
 
@@ -16,7 +16,7 @@ This is the core of this micro framework. This provide a simple method to reprod
  
  Return : the newly created element.
 
-# nojs.js
+# II - nojs.js
 
 This tool is made to neutralize all future Javascript declarations.
 There are 2 ways to use it.
