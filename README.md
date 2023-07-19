@@ -139,10 +139,10 @@ Note that the input type text elements will be initialized as a textbox ARIA ele
 Note that reDesigner.js does not use the customElements stack, so you are not restricted to apply one template with one behavior to all elements that matches a specific tag name.
 
 TODO :
-sensitivity style properties
-summary : role(selector)<[sensitivity style properties]: ... :>
-html declaration
-handlebars native helpers (+extensivity)
+ - sensitivity style properties
+ - summary : role(selector)<[sensitivity style properties]: ... :>
+ - html declaration
+ - handlebars native helpers (+extensivity)
 
 # Explainations
 
