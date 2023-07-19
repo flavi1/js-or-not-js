@@ -125,7 +125,7 @@ TODO
 
 This is an alternative to customElementsDispatcher.js. You can combine the two, but the goal of reDesigner.js is to be a purely declarative way to create components in order to make Javascript more obstrusive than customElementsDispatcher.js is doing. All components are defined in a *Design System Sheet* by a *Design System Rule*.
 
-A *Design System Rule* assign an ARIA Role and a handleBars template to a selector. In the document, each element that matches the selector will automatically obtain a dynamic shadow dom. If a matched element is not natively able to get a shadow dom, it will be recreated as its tag name with a less sign at the end. For example `<input type="text">` will be automatically recreated as `<input- type="text">` (not the less sign at the end of tag name).
+A *Design System Rule* assign an ARIA Role and a handleBars template to a selector. In the document, each element that matches the selector will automatically obtain a dynamic shadow dom. If a matched element is not natively able to get a shadow dom, it will be recreated as its tag name with a less sign at the end. For example `<input type="text">` will be automatically recreated as `<input- type="text">` (note the less sign at the end of tag name).
 If the element is natively able to get a shadow dom, it will not be recreated (ex : `<span class="component">I 'm already able to get a shadow dom</span>`). Let's look on a Design Style Sheet :
 
     textbox(input[type=text]) <:
