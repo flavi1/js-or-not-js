@@ -8,15 +8,15 @@ const noJS = (function() {
 				class_nojs : (scriptUrlParams.get('class_nojs')) ? scriptUrlParams.get('class_nojs') : 'nojs',
 			};
     
-	class AvoidedScript extends HTMLElement {
+	
+	customElements.define("avoided-script", class AvoidedScript extends HTMLElement {
 	  constructor() {
 		// Always call super first in constructor
 		super();
 		this.attachShadow({ mode: "closed" });	// just to hide content without having to use style.
 		// write element functionality in here
 	  }
-	}
-	customElements.define("avoided-script", AvoidedScript);
+	});
     
     var irreversible = false;
     
