@@ -100,7 +100,7 @@ Example :
 
 # III - roleDispatcher.js
 
-todo
+TODO
 
 # III - customElementsDispatcher.js
 
@@ -138,7 +138,12 @@ If the element is natively able to get a shadow dom, it will not be recreated (e
 Note that the input type text elements will be initialized as a textbox ARIA element. The appropriate behavior will be automatically be assigned, so you don't have to use CustomElements classes or other Javascript to set the desired features. The span elements will not need to be initialized.
 Note that reDesigner.js does not use the customElements stack, so you are not restricted to apply one template with one behavior to all elements that matches a specific tag name.
 
+TODO :
+sensitivity style properties
+summary : role(selector)<[sensitivity style properties]: ... :>
+html declaration
+handlebars native helpers (+extensivity)
 
 # Explainations
 
-todo
+TODO
