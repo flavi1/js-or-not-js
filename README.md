@@ -1,9 +1,9 @@
 # js-or-not-js
-A micro framework to make JS realy non obstrusive
+A pure JS thin library to make JS realy non obstrusive
 
 # I - recreateElement.js
 
-This is the core of this micro framework. This provide a simple method to reproduce an HTML Element with another tag name.
+This is the tiny core of this thin library. This provide a simple method to reproduce an HTML Element with another tag name.
 
     <script src="recreateElement.js"></script>
 
