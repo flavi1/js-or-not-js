@@ -14,7 +14,12 @@ This is the tiny core of this thin library. This provide a simple method to repr
  - attach : If true, the new element will be inserted before the targeted element
  - remove : The targeted element will be removed after new element is created.
 
-TODO : Add an event, copy value if defined.
+An event listener can be added :
+
+    el.addEventListener('ElementRecreated', (ev)=>{
+		console.log(ev.detail.newElement)
+		console.log(ev.target)
+    })
  
  Return : the newly created element.
 
