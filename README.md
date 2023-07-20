@@ -147,3 +147,6 @@ TODO :
 # Explainations
 
 TODO
+
+
+Discussion about standardisation : https://www.w3.org/community/html-dynamic-extensions/2023/07/20/custom-elements-and-unobstrusive-javascript/
