@@ -9,10 +9,17 @@ function recreateElement(el, as, attach, remove) {
 		newEl.setAttribute(attr.name, attr.value)
 	}
 
+	newEl.innerHTML = el.innerHTML;
+	
+	if(typeof el.value != 'undefined')
+		newEl.value = el.value;
+	
+	const event = new CustomEvent('ElementRecreated', {detail: {newElement: newEl}});
+	
+	el.dispatchEvent(event);
+	
 	if(attach)
 		el.parentNode.insertBefore(newEl, el)
-	
-	newEl.innerHTML = el.innerHTML;
 	
 	if(remove)
 		el.remove();
