@@ -1,5 +1,5 @@
 # js-or-not-js
-A pure JS thin library to make JS realy non obstrusive
+A pure JS thin library to make web components deployment unobstrusive.
 
 # I - recreateElement.js
 
